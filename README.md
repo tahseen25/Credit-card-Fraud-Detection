@@ -1,4 +1,4 @@
- Credit Card Fraud Detection
+Credit Card Fraud Detection
 Overview
 This project aims to build a machine learning model to detect fraudulent credit card transactions. The dataset used for this project contains transaction details, and the model is trained to distinguish between legitimate and fraudulent transactions.
 
@@ -37,7 +37,6 @@ Install the required dependencies:
 bash
 Copy code
 pip install -r requirements.txt
-
 Usage
 Ensure you have the dataset file in the project directory.
 Run the Jupyter Notebook or Python script to train and evaluate the model:
@@ -78,5 +77,4 @@ Submit a pull request.
 
 
 Contact
-Project Maintainer: Tahseen Bairagdar
-
+GitHub: tahseen25
