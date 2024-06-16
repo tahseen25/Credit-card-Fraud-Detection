@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div id="brandname">
+            <h1 style="color: black">
+            Credit Card Fraud Detection Results
+            </h1>
+          </div>
+          <!-- <h2><p style="text-align: center">Detection</p></h2> -->
+        </div>
+      </header>
+      <h2 style="color: blueviolet;">
+        <b>Validation Completed.</b>
+      </h2>
+      <div class="results">
+        <h2 class="result-text">{{ prediction_text }}</h2>
+      </div>
+</body>
+</html>
